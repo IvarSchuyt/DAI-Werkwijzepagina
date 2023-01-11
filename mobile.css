@@ -1,0 +1,33 @@
+* {
+  margin: 0rem;
+}
+
+html {
+  --secondary-text-color: white;
+  --primary-text-color: black;
+  --primary-font: Arial;
+  --secondary-font: avenir-light;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #67715d;
+  color: var(--secondary-text-color);
+  padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.menu-svg {
+  height: 2rem;
+  width: 2rem;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1rem;
+  font-family: var(--primary-font);
+}
+
+.fases {
+  font-family: var(--primary-font);
+}
