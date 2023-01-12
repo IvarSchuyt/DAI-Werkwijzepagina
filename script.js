@@ -61,3 +61,22 @@ function showTextVoorbereiding() {
 function hideTextVoorbereiding() {
   faseVoorbereidingText.classList.toggle("fase-voorbereiding-text-hidden");
 }
+
+// ------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------
+
+let sidebarButton = document.querySelector(".sidebar-button");
+let sidebar = document.querySelector(".sidebar");
+let sidebarClose = document.querySelector(".sidebar-button-close");
+
+sidebarButton.addEventListener("click", showSidebar);
+// sidebarButton.addEventListener("animationend", showSidebar);
+sidebarClose.addEventListener("click", closeSidebar);
+
+function showSidebar() {
+  sidebar.classList.add("sidebar-shown");
+}
+function closeSidebar() {
+  sidebar.classList.remove("sidebar-shown");
+}

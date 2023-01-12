@@ -9,6 +9,11 @@ html {
   --secondary-font: trebuchet ms;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 header {
   display: flex;
   position: sticky;
@@ -30,6 +35,45 @@ h3 {
   text-align: center;
   padding-top: 1rem;
   font-family: var(--primary-font);
+}
+
+nav {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  z-index: 999;
+  background: white;
+  margin-left: 120%;
+  display: none;
+}
+
+.sidebar-shown {
+  display: block;
+  animation-name: sidebar-slide;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sidebar-slide {
+  0% {
+    margin-right: 120%;
+  }
+  100% {
+    margin-left: 20%;
+  }
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding-right: 1rem;
+  font-family: var(--secondary-font);
+}
+
+.sidebar-link {
+  padding: 1rem 0rem 1rem 0rem;
 }
 
 .fases {
@@ -150,6 +194,6 @@ ul {
 }
 
 .copyright {
-  padding-left: 1rem;
+  padding: 0rem 0rem 1rem 1rem;
   font-size: 0.8rem;
 }
