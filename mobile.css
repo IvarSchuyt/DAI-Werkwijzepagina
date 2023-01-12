@@ -160,6 +160,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: none;
+}
+
 .inleiding-aanvullende-info {
   font-family: var(--secondary-font);
   padding: 1rem;

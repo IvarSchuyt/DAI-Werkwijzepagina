@@ -7,6 +7,7 @@ html {
   --primary-text-color: black;
   --primary-font: Arial;
   --secondary-font: trebuchet ms;
+  --width-section-desktop: 45rem;
 }
 
 a {
@@ -70,6 +71,8 @@ nav {
   display: flex;
   flex-direction: column;
   font-family: var(--primary-font);
+  width: var(--width-section-desktop);
+  margin: 0 auto;
 }
 
 section {
@@ -126,14 +129,25 @@ button {
   cursor: pointer;
 }
 
+.aanvullende-info-container {
+  display: flex;
+  justify-content: center;
+}
+
 .inleiding-aanvullende-info {
   font-family: var(--secondary-font);
   padding: 1rem;
 }
 
+img {
+  width: 23rem;
+  height: 15rem;
+}
+
 .aanvullende-info {
   background: #ececec;
   padding-bottom: 1rem;
+  width: var(--width-section-desktop);
 }
 
 footer {
