@@ -105,19 +105,50 @@ button {
 footer {
   font-family: var(--secondary-font);
   display: flex;
+  flex-direction: column;
   background: #393434;
   color: var(--secondary-text-color);
 }
 
-.footer-rechts {
+.footer-top {
   display: flex;
   flex-direction: column;
 }
 
-ul {
-  list-style: none;
+h3 {
+  text-align: left;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .apply {
+  align-self: baseline;
+  padding-left: 1rem;
   color: var(--secondary-text-color);
+}
+
+ul {
+  padding: 1rem 0rem 0rem 1rem;
+  list-style: none;
+}
+
+.contact {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.instagram-link,
+.algemene-voorwaarden-link {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.algemene-voorwaarden-link {
+  padding: 1rem 0rem 0rem 1rem;
+  font-size: 0.8rem;
+}
+
+.copyright {
+  padding-left: 1rem;
+  font-size: 0.8rem;
 }
