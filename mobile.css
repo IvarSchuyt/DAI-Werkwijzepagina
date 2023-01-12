@@ -75,6 +75,9 @@ section {
 }
 
 button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   font-family: var(--secondary-font);
   border-style: none;
   background: transparent;
@@ -91,6 +94,7 @@ button {
 
 .inleiding-aanvullende-info {
   font-family: var(--secondary-font);
+  padding: 1rem;
 }
 
 .aanvullende-info {
