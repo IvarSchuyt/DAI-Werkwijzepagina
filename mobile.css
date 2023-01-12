@@ -6,7 +6,7 @@ html {
   --secondary-text-color: white;
   --primary-text-color: black;
   --primary-font: Arial;
-  --secondary-font: avenir-light;
+  --secondary-font: trebuchet ms;
 }
 
 header {
@@ -16,6 +16,7 @@ header {
   background-color: #67715d;
   color: var(--secondary-text-color);
   padding: 1rem 1.5rem 1rem 1.5rem;
+  font-family: var(--secondary-font);
 }
 
 .menu-svg {
@@ -38,6 +39,9 @@ h3 {
 }
 
 section {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--secondary-font);
   padding: 1rem;
   border-style: solid;
   border-width: 1px;
@@ -46,7 +50,48 @@ section {
   margin: 1rem;
 }
 
+.fase-inschrijving-text,
+.fase-stagevoorstel-text {
+  display: block;
+}
+
+.fase-inschrijving-text-hidden,
+.fase-stagevoorstel-text-hidden {
+  display: none;
+}
+
+.fase-inschrijving-text-complete,
+.fase-stagevoorstel-text-complete {
+  display: none;
+}
+
+.fase-inschrijving-text-complete-shown,
+.fase-stagevoorstel-text-complete-shown {
+  display: block;
+}
+
+button {
+  font-family: var(--secondary-font);
+  border-style: none;
+  background: transparent;
+}
+
+.lees-meer {
+  align-self: flex-end;
+}
+
+.lees-meer:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.aanvullende-info {
+  background: #ececec;
+  padding-bottom: 1rem;
+}
+
 footer {
+  font-family: var(--secondary-font);
   display: flex;
   background: #393434;
   color: var(--secondary-text-color);
@@ -59,4 +104,8 @@ footer {
 
 ul {
   list-style: none;
+}
+
+.apply {
+  color: var(--secondary-text-color);
 }
