@@ -42,3 +42,22 @@ function hideTextStagevoorstel() {
 // ------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------
+
+let leesMeerVoorbereiding = document.querySelector(".lees-meer-voorbereiding");
+let faseVoorbereidingTextComplete = document.querySelector(
+  ".fase-voorbereiding-text-complete"
+);
+let faseVoorbereidingText = document.querySelector(".fase-voorbereiding-text");
+
+leesMeerVoorbereiding.addEventListener("click", showTextVoorbereiding);
+leesMeerVoorbereiding.addEventListener("click", hideTextVoorbereiding);
+
+function showTextVoorbereiding() {
+  faseVoorbereidingTextComplete.classList.toggle(
+    "fase-voorbereiding-text-complete-shown"
+  );
+}
+
+function hideTextVoorbereiding() {
+  faseVoorbereidingText.classList.toggle("fase-voorbereiding-text-hidden");
+}

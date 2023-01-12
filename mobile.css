@@ -51,22 +51,26 @@ section {
 }
 
 .fase-inschrijving-text,
-.fase-stagevoorstel-text {
+.fase-stagevoorstel-text,
+.fase-voorbereiding-text {
   display: block;
 }
 
 .fase-inschrijving-text-hidden,
-.fase-stagevoorstel-text-hidden {
+.fase-stagevoorstel-text-hidden,
+.fase-voorbereiding-text-hidden {
   display: none;
 }
 
 .fase-inschrijving-text-complete,
-.fase-stagevoorstel-text-complete {
+.fase-stagevoorstel-text-complete,
+.fase-voorbereiding-text-complete {
   display: none;
 }
 
 .fase-inschrijving-text-complete-shown,
-.fase-stagevoorstel-text-complete-shown {
+.fase-stagevoorstel-text-complete-shown,
+.fase-voorbereiding-text-complete-shown {
   display: block;
 }
 
@@ -83,6 +87,10 @@ button {
 .lees-meer:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.inleiding-aanvullende-info {
+  font-family: var(--secondary-font);
 }
 
 .aanvullende-info {
