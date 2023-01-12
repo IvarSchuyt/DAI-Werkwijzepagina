@@ -141,10 +141,11 @@ ul {
 .algemene-voorwaarden-link {
   color: var(--secondary-text-color);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .algemene-voorwaarden-link {
-  padding: 1rem 0rem 0rem 1rem;
+  padding: 1rem 0rem 0rem 1rem; 
   font-size: 0.8rem;
 }
 
