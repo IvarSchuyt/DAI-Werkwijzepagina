@@ -33,6 +33,7 @@ header {
 }
 
 .menu-svg {
+  display: inline;
   height: 2rem;
   width: 2rem;
 }
@@ -47,6 +48,11 @@ h3 {
   text-align: center;
   padding-top: 1rem;
   font-family: var(--primary-font);
+}
+
+.sidebar-button {
+  height: 2rem;
+  width: 2rem;
 }
 
 nav {
