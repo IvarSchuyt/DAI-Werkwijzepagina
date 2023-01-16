@@ -47,7 +47,7 @@ h3 {
 
 nav {
   position: absolute;
-  width: 80%;
+  width: 90%;
   height: 100%;
   z-index: 999;
   background: white;
@@ -58,7 +58,7 @@ nav {
 .sidebar-shown {
   display: block;
   animation-name: sidebar-slide;
-  animation-duration: 1s;
+  animation-duration: 0.6s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -66,6 +66,9 @@ nav {
 @keyframes sidebar-slide {
   0% {
     margin-right: 120%;
+  }
+  70% {
+    margin-left: 10%;
   }
   100% {
     margin-left: 20%;
@@ -92,7 +95,7 @@ nav {
   display: flex;
   flex-direction: column;
   text-align: right;
-  padding-right: 1rem;
+  padding-right: 3.5rem;
   font-family: var(--secondary-font);
 }
 
