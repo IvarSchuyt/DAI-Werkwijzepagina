@@ -37,6 +37,10 @@ header {
   width: 2rem;
 }
 
+.menu-svg:active {
+  scale: 90%;
+}
+
 h1,
 h2,
 h3 {
@@ -74,22 +78,6 @@ nav {
     margin-left: 20%;
   }
 }
-
-/* .sidebar-close-animation {
-  animation-name: sidebar-slide-back;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  /* animation-fill-mode: forwards; */
-/* } */
-/* 
-@keyframes sidebar-slide-back {
-  0% {
-    margin-right: 20%;
-  }
-  100% {
-    margin-left: 120%;
-  }
-} */
 
 .sidebar-content {
   display: flex;
