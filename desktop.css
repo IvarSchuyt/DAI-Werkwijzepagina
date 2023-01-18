@@ -15,6 +15,12 @@ a {
   text-decoration: none;
 }
 
+.whatsapp-logo,
+.whatsapp-sticky,
+.whatsapp-logo-background {
+  display: none;
+}
+
 header {
   display: flex;
   position: sticky;
