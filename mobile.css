@@ -13,6 +13,7 @@ html {
   height: 3rem;
   width: 3rem;
   background: #1bd741;
+  z-index: 997;
 }
 
 .whatsapp-logo,
@@ -29,7 +30,7 @@ html {
 .whatsapp-sticky {
   height: 2rem;
   width: 2rem;
-  z-index: 999;
+  z-index: 998;
   bottom: 1.5rem;
   right: 1.5rem;
 }
@@ -113,16 +114,17 @@ nav {
   }
 }
 
-.sidebar-button-close {
-  margin: 1.25rem 0 0 20.5rem;
-}
-
 .sidebar-content {
   display: flex;
   flex-direction: column;
   text-align: right;
   padding-right: 4.5rem;
   font-family: var(--secondary-font);
+}
+
+.sidebar-button-close {
+  margin-right: -0.75rem;
+  padding-bottom: 2rem;
 }
 
 .sidebar-link {
