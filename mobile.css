@@ -1,5 +1,6 @@
 * {
   margin: 0rem;
+  -webkit-text-fill-color: inherit;
 }
 
 html {
@@ -9,6 +10,11 @@ html {
   --secondary-font: trebuchet ms;
 }
 
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-text-fill-color: inherit;
+}
 .whatsapp-logo-background {
   height: 3rem;
   width: 3rem;
