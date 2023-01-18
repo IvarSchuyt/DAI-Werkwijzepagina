@@ -1,5 +1,6 @@
 * {
   margin: 0rem;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
