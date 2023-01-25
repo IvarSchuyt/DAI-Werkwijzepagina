@@ -5,7 +5,7 @@
 html {
   --secondary-text-color: white;
   --primary-text-color: black;
-  --primary-font: Arial;
+  --primary-font: trebuchet ms;
   --secondary-font: trebuchet ms;
   --width-section-desktop: 45rem;
   --header-color: #67715d;
@@ -21,6 +21,10 @@ a {
 .whatsapp-sticky,
 .whatsapp-logo-background {
   display: none;
+}
+
+h1 {
+  margin: 1rem 0rem 1rem 0rem;
 }
 
 header {
@@ -103,7 +107,7 @@ section {
   margin-left: -0.25rem;
 }
 
-h3 {
+h2 {
   text-align: left;
   padding-bottom: 1rem;
 }
@@ -112,6 +116,7 @@ h3 {
 .fase-stagevoorstel-text,
 .fase-voorbereiding-text {
   display: block;
+  margin-bottom: 1rem;
 }
 
 .fase-inschrijving-text-hidden,
@@ -124,6 +129,7 @@ h3 {
 .fase-stagevoorstel-text-complete,
 .fase-voorbereiding-text-complete {
   display: none;
+  margin-bottom: 1rem;
 }
 
 .fase-inschrijving-text-complete-shown,
@@ -148,6 +154,10 @@ button {
 .lees-meer:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+h3 {
+  font-size: 1.2rem;
 }
 
 .aanvullende-info-container {
@@ -192,17 +202,13 @@ h4 {
 .apply {
   align-self: baseline;
   padding-left: 1rem;
+  margin-bottom: 2rem;
   color: var(--secondary-text-color);
 }
 
 ul {
-  padding: 1rem 0rem 0rem 1rem;
+  padding: 0rem 0rem 0rem 1rem;
   list-style: none;
-}
-
-.contact {
-  padding-bottom: 0.5rem;
-  font-weight: bold;
 }
 
 .instagram-link,
