@@ -121,6 +121,7 @@ nav {
   }
   100% {
     margin-left: 20%;
+    opacity: 100%;
   }
 }
 
@@ -212,6 +213,10 @@ img {
 
 .aanvullende-info {
   background: #ececec;
+  padding-bottom: 1rem;
+}
+
+.aanvullende-info-text li {
   padding-bottom: 1rem;
 }
 

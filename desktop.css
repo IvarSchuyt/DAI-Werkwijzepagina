@@ -157,6 +157,10 @@ img {
   width: var(--width-section-desktop);
 }
 
+.aanvullende-info-text li {
+  padding-bottom: 1rem;
+}
+
 footer {
   font-family: var(--secondary-font);
   display: flex;
