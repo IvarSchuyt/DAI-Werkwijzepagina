@@ -276,7 +276,7 @@ h4 {
 }
 
 ul {
-  padding: 0rem 0rem 0rem 1rem;
+  padding: 0rem 0rem 1rem 1rem;
   list-style: none;
 }
 
@@ -285,10 +285,6 @@ ul {
   color: var(--secondary-text-color);
   text-decoration: none;
   cursor: pointer;
-}
-
-.footer-right-bottom {
-  margin: 1rem 0rem 1rem 0rem;
 }
 
 .algemene-voorwaarden-link {
