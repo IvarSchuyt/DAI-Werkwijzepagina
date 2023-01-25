@@ -8,6 +8,7 @@ html {
   --primary-text-color: black;
   --primary-font: Arial;
   --secondary-font: trebuchet ms;
+  --header-color: #67715d;
 }
 
 button {
@@ -53,7 +54,7 @@ header {
   display: flex;
   position: sticky;
   justify-content: space-between;
-  background-color: #67715d;
+  background-color: var(--header-color);
   color: var(--secondary-text-color);
   padding: 1rem 1.5rem 1rem 1.5rem;
   font-family: var(--secondary-font);
