@@ -233,17 +233,24 @@ h3 {
 
 .inleiding-aanvullende-info {
   font-family: var(--secondary-font);
-  padding: 1rem 3.5rem 1rem 3.5rem;
+  padding: 1rem 2rem 1rem 2rem;
 }
 
 .aanvullende-info {
   background: #ececec;
-  padding: 1rem 0rem 1rem 0rem;
+  padding: 0rem 0rem 1rem 0rem;
   width: var(--width-section-desktop);
 }
 
+.aanvullende-info-text {
+  padding: 1rem 1rem 0rem 2rem;
+}
 .aanvullende-info-text li {
   padding-bottom: 1rem;
+}
+
+ol {
+  padding: 0;
 }
 
 footer {
