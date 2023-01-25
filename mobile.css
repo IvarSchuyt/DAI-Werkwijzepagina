@@ -9,6 +9,7 @@ html {
   --primary-font: Arial;
   --secondary-font: trebuchet ms;
   --header-color: #67715d;
+  line-height: 1.25rem;
 }
 
 button {
@@ -208,12 +209,13 @@ img {
 
 .inleiding-aanvullende-info {
   font-family: var(--secondary-font);
-  padding: 1rem;
+  padding: 1rem 3.5rem 1rem 3.5rem;
 }
 
 .aanvullende-info {
   background: #ececec;
-  padding-bottom: 1rem;
+  padding: 1rem 0rem 1rem 0rem;
+  width: var(--width-section-desktop);
 }
 
 .aanvullende-info-text li {

@@ -9,6 +9,7 @@ html {
   --secondary-font: trebuchet ms;
   --width-section-desktop: 45rem;
   --header-color: #67715d;
+  line-height: 1.25rem;
 }
 
 a {
@@ -143,17 +144,17 @@ button {
 
 .inleiding-aanvullende-info {
   font-family: var(--secondary-font);
-  padding: 1rem;
+  padding: 1rem 3.5rem 1rem 3.5rem;
 }
 
 img {
-  width: 23rem;
-  height: 15rem;
+  width: 25rem;
+  height: 17rem;
 }
 
 .aanvullende-info {
   background: #ececec;
-  padding-bottom: 1rem;
+  padding: 1rem 0rem 1rem 0rem;
   width: var(--width-section-desktop);
 }
 
