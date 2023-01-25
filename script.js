@@ -71,7 +71,6 @@ let sidebar = document.querySelector(".sidebar");
 let sidebarClose = document.querySelector(".sidebar-button-close");
 
 sidebarButton.addEventListener("click", showSidebar);
-// sidebarButton.addEventListener("animationend", showSidebar);
 sidebarClose.addEventListener("click", closeSidebar);
 
 function showSidebar() {

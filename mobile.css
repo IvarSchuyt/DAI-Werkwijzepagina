@@ -151,6 +151,7 @@ nav {
   display: flex;
   flex-direction: column;
   font-family: var(--primary-font);
+  padding-bottom: 1rem;
 }
 
 section {
@@ -284,6 +285,10 @@ ul {
   color: var(--secondary-text-color);
   text-decoration: none;
   cursor: pointer;
+}
+
+.footer-right-bottom {
+  margin: 1rem 0rem 1rem 0rem;
 }
 
 .algemene-voorwaarden-link {
