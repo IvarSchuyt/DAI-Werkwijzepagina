@@ -183,11 +183,6 @@ footer {
   color: var(--secondary-text-color);
 }
 
-.footer-top {
-  display: flex;
-  flex-direction: column;
-}
-
 h4 {
   text-align: left;
   padding-left: 1rem;
