@@ -95,6 +95,19 @@ section {
   margin: 1rem;
 }
 
+.svg-inschrijving,
+.svg-stagevoorstel,
+.svg-voorbereiding {
+  height: 3rem;
+  width: 3rem;
+  margin-left: -0.25rem;
+}
+
+h3 {
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
 .fase-inschrijving-text,
 .fase-stagevoorstel-text,
 .fase-voorbereiding-text {
@@ -175,7 +188,7 @@ footer {
   flex-direction: column;
 }
 
-h3 {
+h4 {
   text-align: left;
   padding-left: 1rem;
   padding-bottom: 0.5rem;
