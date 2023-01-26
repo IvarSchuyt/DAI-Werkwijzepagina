@@ -8,7 +8,9 @@
 - Wel/niet gelukt
 
 ## Opdrachtgever
+Dutchies Abroad Internship is een bedrijf die stages voor studenten regelt in het buitenland. Hun huidige site is gemaakt met Wix.
 ## Design challenge
+Mijn opdracht was om in 3 weken een nieuwe werkwijze-pagina te maken met bepaalde interacties en een (deels) nieuwe stijl zodat de pagina simnpeler en overzichtelijker werd.
 ## Gebruik pagina
 ## Wel/niet gelukt
 
