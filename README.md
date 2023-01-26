@@ -12,7 +12,7 @@ Dutchies Abroad Internship is een bedrijf die stages voor studenten regelt in he
 ## 📝Design challenge
 Mijn opdracht was om in 3 weken een nieuwe werkwijze-pagina te maken met bepaalde interacties en een (deels) nieuwe stijl zodat de pagina simnpeler en overzichtelijker werd.
 ## 📱 Gebruik pagina
-De pagina heeft een desktop- en mobiele versie. Het menu om naar andere pagina's te navigeren zit op brede schermen in de header. Op smalle schermen zit het in de sidebar die verschijnt door rechtsboven op de menu-knop te drukken.
+De pagina heeft een desktop- en mobiele versie. Het menu om naar andere pagina's te navigeren zit op brede schermen in de header. Op smalle schermen zit het in de sidebar die verschijnt door rechtsboven op de menu-knop te drukken. De mobiele versie heeft constant een Whatsapp-symbool in beeld, zodat de gebruiker gemakkelijk contact kan opnemen met het stagebureau.
 ## ✅ Wel/niet gelukt
 ### 🎉 Wel gelukt
 - 2 interacties toegevoegd aan de pagina
