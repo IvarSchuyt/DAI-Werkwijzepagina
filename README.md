@@ -14,4 +14,10 @@ Mijn opdracht was om in 3 weken een nieuwe werkwijze-pagina te maken met bepaald
 ## Gebruik pagina
 De pagina heeft een desktop- en mobiele versie. Het menu om naar andere pagina's te navigeren zit op brede schermen in de header. Op smalle schermen zit het in de sidebar die verschijnt door rechtsboven op de menu-knop te drukken.
 ## Wel/niet gelukt
-
+### Wel gelukt
+- 2 interacties toegevoegd aan de pagina
+- Pagina responsive gemaakt
+- Een Disney-principe in mijn animatie gebruikt
+### Niet gelukt
+- Pagina een nieuwe stijl geven
+- Alle issues sluiten
