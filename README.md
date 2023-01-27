@@ -20,4 +20,4 @@ De pagina heeft een desktop- en mobiele versie. Het menu om naar andere pagina's
 - Een Disney-principe in mijn animatie gebruikt
 ### ⚰️ Niet gelukt
 - Pagina een nieuwe stijl geven
-- Alle issues sluiten
+- Alle [issues](https://github.com/IvarSchuyt/DAI-Werkwijzepagina/issues) sluiten
