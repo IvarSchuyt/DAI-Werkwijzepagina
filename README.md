@@ -21,3 +21,8 @@ De pagina heeft een desktop- en mobiele versie. Het menu om naar andere pagina's
 ### ⚰️ Niet gelukt
 - Pagina een nieuwe stijl geven
 - Alle [issues](https://github.com/IvarSchuyt/DAI-Werkwijzepagina/issues) sluiten
+## Licentie
+![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+
+This work is licensed under [GNU GPLv3](./LICENSE).
+
